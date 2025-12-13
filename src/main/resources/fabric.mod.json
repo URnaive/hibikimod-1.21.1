@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hibikimod",
+	"version": "${version}",
+	"name": "HibikiMod",
+	"description": "一个加入了各种有意思的东西的模组",
+	"authors": [
+		"2267893746"
+	],
+	"contact": {
+		"homepage": "https://urnaive.github.io/web",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hibikimod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hibiki.pack.HibikiMod"
+		],
+		"fabric-datagen": [
+			"com.hibiki.pack.HibikiModDataGenerator"
+		],
+        "client":[
+            "com.hibiki.pack.HibikiModClient"
+        ]
+	},
+	"mixins": [
+		"hibikimod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
