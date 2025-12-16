@@ -1,5 +1,8 @@
 package com.hibiki.pack;
 
+import com.hibiki.pack.block.ModBlocks;
+import com.hibiki.pack.item.ModItemGroups;
+import com.hibiki.pack.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +22,9 @@ public class HibikiMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+        ModItems.registerModItems();
+        ModItemGroups.registerModItemGroups();
+        ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

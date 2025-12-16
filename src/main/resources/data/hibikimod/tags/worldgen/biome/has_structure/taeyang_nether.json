@@ -1,0 +1,8 @@
+{
+  "replace": false,
+
+  "_comment": "biomes",
+  "values": [
+    "#minecraft:is_nether"
+  ]
+}

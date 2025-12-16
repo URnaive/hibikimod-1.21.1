@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hibikimod:block/kim_jung_il_portraitblock"
+  }
+}

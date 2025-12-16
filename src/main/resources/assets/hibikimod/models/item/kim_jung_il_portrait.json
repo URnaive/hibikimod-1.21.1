@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hibikimod:item/kim_jung_il_portrait"
+  }
+}
