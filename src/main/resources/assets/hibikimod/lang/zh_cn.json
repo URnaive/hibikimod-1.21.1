@@ -3,10 +3,14 @@
   "item.hibikimod.black_tea": "红茶",
   "item.hibikimod.kim_il_sung_portrait": "伟大的首领 金日成 大元帅肖像",
   "item.hibikimod.kim_jung_il_portrait": "伟大的领导者 金正日 元帅肖像",
+  "item.hibikimod.steve_fluid_bucket": "幸福桶",
 
   "block.hibikimod.ice_black_tea": "牢大冰红茶",
   "block.hibikimod.maneki_neko": "招财猫",
   "block.hibikimod.yellow_floor_tile": "黄色地砖",
   "block.hibikimod.kim_il_sung_portraitblock": "伟大的首领 金日成 大元帅肖像方块",
-  "block.hibikimod.kim_jung_il_portraitblock": "伟大的领导者 金正日 元帅肖像方块"
+  "block.hibikimod.kim_jung_il_portraitblock": "伟大的领导者 金正日 元帅肖像方块",
+
+  "block.hibikimod.railway_crossing_bell_down":"压道铃底座",
+  "block.hibikimod.railway_crossing_bell":"压道铃"
 }

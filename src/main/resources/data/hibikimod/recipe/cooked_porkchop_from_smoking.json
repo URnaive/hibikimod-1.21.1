@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "hibikimod:kim_il_sung_portrait"
+  },
+  "result": {
+    "id": "minecraft:cooked_porkchop"
+  }
+}

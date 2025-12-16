@@ -2,11 +2,15 @@
   "item.hibikimod.black_tea": "Black tea",
   "item.hibikimod.kim_il_sung_portrait": "Kim Il sung's portrait",
   "item.hibikimod.kim_jung_il_portrait": "Kim Jung il's portrait",
+  "item.hibikimod.steve_fluid_bucket": "Shiawase bucket",
 
   "itemGroup.hibikimod.hibikimod_group": "Hibiki's Furniture",
   "block.hibikimod.ice_black_tea": "Kobe's ice black tea",
   "block.hibikimod.maneki_neko": "Maneki neko",
   "block.hibikimod.yellow_floor_tile": "Yellow floor tile",
   "block.hibikimod.kim_jung_il_portraitblock": "Kim Jung il's portraitblock",
-  "block.hibikimod.kim_il_sung_portraitblock": "Kim Il sung's portraitblock"
+  "block.hibikimod.kim_il_sung_portraitblock": "Kim Il sung's portraitblock",
+
+  "block.hibikimod.railway_crossing_bell_down":"Basis of railway crossing bell",
+  "block.hibikimod.railway_crossing_bell":"Railway crossing bell"
 }

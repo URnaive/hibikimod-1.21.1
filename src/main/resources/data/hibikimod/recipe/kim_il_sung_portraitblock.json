@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "hibikimod:kim_il_sung_portrait"
+    },
+    "?": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "???",
+    "?#?",
+    "???"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hibikimod:kim_il_sung_portraitblock"
+  }
+}

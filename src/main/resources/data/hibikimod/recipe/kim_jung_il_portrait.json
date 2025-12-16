@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:golden_apple"
+    },
+    "?": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "???",
+    "?#?",
+    "???"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hibikimod:kim_jung_il_portrait"
+  }
+}

@@ -1,6 +1,7 @@
 package com.hibiki.pack;
 
 import com.hibiki.pack.block.ModBlocks;
+import com.hibiki.pack.block.ModFluids;
 import com.hibiki.pack.item.ModItemGroups;
 import com.hibiki.pack.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -25,6 +26,7 @@ public class HibikiMod implements ModInitializer {
         ModItems.registerModItems();
         ModItemGroups.registerModItemGroups();
         ModBlocks.registerModBlocks();
+        ModFluids.registerModFluids();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hibikimod:item/steve_fluid_bucket"
+  }
+}

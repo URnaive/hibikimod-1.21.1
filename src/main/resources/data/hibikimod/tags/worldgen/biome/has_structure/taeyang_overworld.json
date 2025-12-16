@@ -3,6 +3,7 @@
 
   "_comment": "biomes",
   "values": [
+    "#minecraft:is_mountain",
     "#minecraft:is_ocean",
     "#minecraft:is_jungle",
     "#minecraft:is_forest",

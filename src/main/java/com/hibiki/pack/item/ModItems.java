@@ -1,10 +1,13 @@
 package com.hibiki.pack.item;
 
 import com.hibiki.pack.HibikiMod;
+import com.hibiki.pack.block.ModFluids;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -14,6 +17,10 @@ public class ModItems {
     public static final Item BLACK_TEA = registerItems("black_tea", new Item(new Item.Settings()));
     public static final Item KIM_IL_SUNG_PORTRAIT = registerItems("kim_il_sung_portrait", new Item(new Item.Settings()));
     public static final Item KIM_JUNG_IL_PORTRAIT = registerItems("kim_jung_il_portrait", new Item(new Item.Settings()));
+
+    public static final Item STEVE_FLUID_BUCKET = registerItems("steve_fluid_bucket",
+            new BucketItem(ModFluids.STEVE_FLUID, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM,Identifier.of(HibikiMod.MOD_ID,id),item);
     }

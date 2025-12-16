@@ -42,6 +42,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.YELLOEW_FLOOR_TILE);
                         entries.add(ModBlocks.KIM_IL_SUNG_PORTRAITBLOCK);
                         entries.add(ModBlocks.KIM_JUNG_IL_PORTRAITBLOCK);
+
+                        entries.add(ModBlocks.RAILWAY_CROSSING_BELL_DOWN);
+                        entries.add(ModBlocks.RAIWAY_CROSSING_BELL);
+
+                        entries.add(ModItems.STEVE_FLUID_BUCKET);
                     })).build());
     public static void registerModItemGroups(){
         HibikiMod.LOGGER.info("Resistering the mod item group.");
